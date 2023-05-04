@@ -1,0 +1,179 @@
+/* 전체 스타일 */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+/* header 스타일 */
+header {
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 10px 20px;
+	z-index: 1;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul li {
+	margin-right: 20px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	color: #333;
+	text-decoration: none;
+	font-size: 18px;
+	transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+	color: #f00;
+}
+
+/* main 스타일 */
+main {
+	margin-top: 80px;
+}
+
+#hero {
+	background-image: url('hero-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	text-align: center;
+}
+
+#hero h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+#hero p {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+#hero button {
+	background-color: #f00;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 20px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#hero button:hover {
+	background-color: #fff;
+	color: #f00;
+}
+
+#works {
+	padding: 50px;
+	background-color: #f8f8f8;
+}
+
+#works h2 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+.work {
+	margin-bottom: 50px;
+}
+
+.work img {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+}
+
+.work h3 {
+	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.work p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.work button {
+	background-color: #f00;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 20px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.work button:hover {
+	background-color: #fff;
+	color: #f00;
+}
+
+#awards {
+	padding: 50px;
+	background-color: #fff;
+}
+
+#awards h2 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+#awards ul {
+	list-style: none;
+}
+
+#awards li {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+#exhibitions {
+	padding: 50px;
+	background-color: #f8f8f8;
+}
+
+#exhibitions h2 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+#exhibitions ul {
+	list-style: none;
+}
+
+#exhibitions li {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+#media {
+	padding: 50px;
+	background-color: #fff;
+}
+
+#media h2
